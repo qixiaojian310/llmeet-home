@@ -1,5 +1,15 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+import ganttastic from '@infectoone/vue-ganttastic'
+import Aura from '@primeuix/themes/aura';
+import PrimeVue from 'primevue/config';
 
-createApp(App).mount('#app')
+
+import './styles/fonts.css'
+
+
+createApp(App).use(ganttastic).use(PrimeVue, {
+  theme: {
+    preset: Aura
+  }
+}).mount('#app')
