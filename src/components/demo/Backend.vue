@@ -30,6 +30,12 @@ const events = ref([
     date: '2025-04-05',
     color: '#607D8B',
     text: 'Developed login and registration interfaces with form validation.',
+  },
+  {
+    status: 'Meeting',
+    date: '2025-04-25',
+    color: '#009688',
+    text: 'Implemented meeting creation, scheduling, and management, we start a meeting management in database and backend',
   }
 ]);
 
@@ -47,6 +53,10 @@ const details = ref([
       path: new URL('@/assets/backend/b-3.png', import.meta.url).href,
       description: 'Login and registers',
     },
+    {
+      path: new URL('@/assets/backend/b-4.png', import.meta.url).href,
+      description: 'Meeting management',
+    }
 ])
 </script>
 

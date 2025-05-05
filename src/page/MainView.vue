@@ -17,6 +17,9 @@
           </div>
         </swiper-slide>
         <swiper-slide class="swiper-content">
+          <Deployment />
+        </swiper-slide>
+        <swiper-slide class="swiper-content">
           <Frontend />
         </swiper-slide>
         <swiper-slide class="swiper-content">
@@ -45,6 +48,7 @@ import { ref } from 'vue';
 import Frontend from '@/components/demo/Frontend.vue';
 import Backend from '@/components/demo/Backend.vue';
 import FinetuneModel from '@/components/demo/FinetuneModel.vue';
+import Deployment from '@/components/demo/Deployment.vue';
 
 const swiperTitle = ref('')
 const showHeader = ref(true)

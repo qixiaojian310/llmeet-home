@@ -74,7 +74,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -97,7 +97,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -180,11 +180,29 @@ const rowBarList = ref(
       bars: [
         {
           myBeginDate: "2025-03-01",
+          myEndDate: "2025-05-05",
+          ganttBarConfig: {
+            id: "Webpage-1",
+            hasHandles: true,
+            label: "Start a Webpage in github and init in HKUCS",
+            immobile: true,
+            style: {
+              // arbitrary CSS styling for your bar
+              background: "#5f9ea0",
+              borderRadius: "20px",
+              color: "black",
+              fontSize: "10px"
+
+            }
+          }
+        },
+        {
+          myBeginDate: "2025-05-06",
           myEndDate: "2025-07-15",
           ganttBarConfig: {
             id: "Webpage-1",
             hasHandles: true,
-            label: "Webpage",
+            label: "Update a Webpage in HKUCS",
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar

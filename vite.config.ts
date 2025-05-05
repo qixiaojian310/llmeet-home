@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/llmeet-home',
+  base: '/llmeet-home/',
   plugins: [vue()],
   resolve: {
     alias: {

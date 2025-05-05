@@ -30,13 +30,19 @@ const events = ref([
     date: '2025-04-05',
     color: '#607D8B',
     text: 'Implemented camera access using the MediaDevices API and completed the initial frontend startup flow, establishing basic communication with the backend.',
+  },
+  {
+    status: 'Finish HTTP Wrapper',
+    date: '2025-05-05',
+    color: '#607D8B',
+    text: 'We use tauri and rust to wrapper the http and https request from client, which can reduce the risk of the client from being hacked and no need to consider CORS problem',
   }
 ]);
 
 const details = ref([
     {
       path: new URL('@/assets/frontend/f-1.png', import.meta.url).href,
-      description: 'Register',
+      description: 'Login',
     },
     {
       path: new URL('@/assets/frontend/f-2.png', import.meta.url).href,
@@ -61,6 +67,10 @@ const details = ref([
     {
       path: new URL('@/assets/frontend/f-7.png', import.meta.url).href,
       description: 'Conference record',
+    },
+    {
+      path: new URL('@/assets/frontend/f-8.png', import.meta.url).href,
+      description: 'Register',
     }
 ])
 </script>

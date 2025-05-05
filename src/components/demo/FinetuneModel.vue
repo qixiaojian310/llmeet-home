@@ -19,6 +19,36 @@ const events = ref([
     color: '#673AB7',
     text: 'Successfully loaded the fine-tuned model with LoRA adapters and verified model readiness for inference.',
   },
+  {
+    status: 'fine-tuning model wtih CNNDM',
+    date: '2025-04-27',
+    color: '#FF9800',
+    text: 'Fine-tuned the model using the CNNDM dataset, achieving promising results in meeting summarization, not just in meeting summarization, but also in other text.',
+  },
+  {
+    status: 'fine-tuning model wtih QMSum',
+    date: '2025-04-29',
+    color: '#607D8B',
+    text: 'Fine-tuned the model using the QMSum dataset, achieving promising results in meeting summarization, not just in meeting summarization, but also in other text.',
+  },
+  {
+    status: 'fine-tuning model wtih MediaSum',
+    date: '2025-05-01',
+    color: '#009688',
+    text: 'Fine-tuned the model in tv meeting, it may have more difficult to summarize the face-to-face meeting.',
+  },
+  {
+    status: 'fine-tuning model wtih SAMSum',
+    date: '2025-05-03',
+    color: '#009688',
+    text: 'Fine-tuned the model in short and daily communication, it may have more difficult to summarize this kind of short meeting.',
+  },
+  {
+    status: 'fine-tuning model wtih DialogSum',
+    date: '2025-05-05',
+    color: '#009688',
+    text: 'Fine-tuned the Task-Oriented Dialog Summarization dataset, achieving promising results in meeting summarization, not just in meeting summarization, but also in other text.',
+  }
 ]);
 
 
