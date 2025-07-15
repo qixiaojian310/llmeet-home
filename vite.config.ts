@@ -11,4 +11,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: 'docs',    // 输出目录改为 docs
+  },
 });
