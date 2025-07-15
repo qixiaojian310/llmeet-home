@@ -120,7 +120,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -142,7 +142,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -165,7 +165,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -206,7 +206,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"
@@ -229,7 +229,7 @@ const rowBarList = ref(
             immobile: true,
             style: {
               // arbitrary CSS styling for your bar
-              background: "#e09b69",
+              background: "#5f9ea0",
               borderRadius: "20px",
               color: "black",
               fontSize: "10px"

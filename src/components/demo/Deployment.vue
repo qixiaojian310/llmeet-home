@@ -30,7 +30,14 @@ const events = ref([
     date: '2025-05-05',
     color: '#607D8B',
     text: 'Except the website in github, we also refresh the HKUCS webpage to show our project',
-  }
+  },
+  {
+    status: 'Deploy a model',
+    date: '2025-07-05',
+    color: '#607D8B',
+    text: 'We use fastapi to deploy our model, and use nginx to reverse proxy the request from AI server to a server which have independent IP Address',
+
+  },
 ]);
 
 

@@ -35,8 +35,44 @@ const events = ref([
     status: 'Finish HTTP Wrapper',
     date: '2025-05-05',
     color: '#607D8B',
-    text: 'We use tauri and rust to wrapper the http and https request from client, which can reduce the risk of the client from being hacked and no need to consider CORS problem',
-  }
+    text: 'Used Tauri and Rust to wrap HTTP/HTTPS requests on the client side, improving security and avoiding CORS issues in cross-origin communication.',
+  },
+  {
+    status: 'Update theme colors',
+    date: '2025-05-20',
+    color: '#3F51B5',
+    text: 'Refactored the UI theme to support custom colors and light/dark modes, enhancing visual consistency across the application.',
+  },
+  {
+    status: 'Add loading and empty states',
+    date: '2025-06-01',
+    color: '#00BCD4',
+    text: 'Introduced comprehensive loading indicators and empty state components throughout the app to improve user feedback and perceived performance.',
+  },
+  {
+    status: 'Integrate WebRTC frontend',
+    date: '2025-06-10',
+    color: '#4CAF50',
+    text: 'Connected the frontend interface with the underlying WebRTC engine, enabling real-time video and audio communication within the meeting interface.',
+  },
+  {
+    status: 'Add recording UI',
+    date: '2025-06-20',
+    color: '#F44336',
+    text: 'Designed and implemented the recording interface, including visual indicators for active recording and user guidance during the session.',
+  },
+  {
+    status: 'Implement video buffering (video.js)',
+    date: '2025-07-05',
+    color: '#9E9E9E',
+    text: 'Integrated video.js and developed a custom buffering module to support synchronized playback of multi-source meeting recordings.',
+  },
+  {
+    status: 'Connect LLM via SSE',
+    date: '2025-07-15',
+    color: '#2196F3',
+    text: 'Established an SSE connection to the LLM backend, enabling real-time assistant responses and streaming output in the chatbot interface.',
+  },
 ]);
 
 const details = ref([
@@ -46,32 +82,52 @@ const details = ref([
     },
     {
       path: new URL('@/assets/frontend/f-2.png', import.meta.url).href,
-      description: 'Home',
+      description: 'Register',
     },
     {
       path: new URL('@/assets/frontend/f-3.png', import.meta.url).href,
-      description: 'Create a meeting',
+      description: 'Home',
     },
     {
       path: new URL('@/assets/frontend/f-4.png', import.meta.url).href,
-      description: 'Conference',
+      description: 'Create Meeting',
     },
     {
       path: new URL('@/assets/frontend/f-5.png', import.meta.url).href,
-      description: 'Join a meeting',
+      description: 'Join Meeting',
     },
     {
       path: new URL('@/assets/frontend/f-6.png', import.meta.url).href,
-      description: 'Conference records list',
+      description: 'Meeting',
     },
     {
       path: new URL('@/assets/frontend/f-7.png', import.meta.url).href,
-      description: 'Conference record',
+      description: 'Meeting information',
     },
     {
       path: new URL('@/assets/frontend/f-8.png', import.meta.url).href,
-      description: 'Register',
-    }
+      description: 'Meeting Record List',
+    },
+    {
+      path: new URL('@/assets/frontend/f-9.png', import.meta.url).href,
+      description: 'Meeting Record With Transcript',
+    },
+    {
+      path: new URL('@/assets/frontend/f-10.png', import.meta.url).href,
+      description: 'Meeting Record With Summarization',
+    },
+    {
+      path: new URL('@/assets/frontend/f-11.png', import.meta.url).href,
+      description: 'Meeting Record With Chatbot',
+    },
+    {
+      path: new URL('@/assets/frontend/f-12.png', import.meta.url).href,
+      description: 'Schedule',
+    },
+    {
+      path: new URL('@/assets/frontend/f-13.png', import.meta.url).href,
+      description: 'Schedule Item',
+    },
 ])
 </script>
 

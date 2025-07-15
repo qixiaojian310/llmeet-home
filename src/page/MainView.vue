@@ -1,7 +1,7 @@
 <template>
   <div class="home-view">
     <Transition name="header-fade">
-      <Header v-show="showHeader" :panel-title="swiperTitle" />
+      <Header v-show="showHeader && swiperTitle" :panel-title="swiperTitle" />
     </Transition>
     <div class="home-content">
       <swiper :pagination="{
@@ -64,7 +64,7 @@ const changeSlideEmit = () => {
   } else {
     showHeader.value = true
   }
-  const panelTitle = ['', '-Schedule', '-Frontend Progress','-Backend Progress', '-Fine-tuning Progress']
+  const panelTitle = ['', '-Schedule', '-Deployment Progress', '-Frontend Progress','-Backend Progress', '-Fine-tuning Progress']
   swiperTitle.value = panelTitle[currentSlide]
 }
 

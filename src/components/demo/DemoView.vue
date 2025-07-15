@@ -8,9 +8,7 @@
         <swiper-slide v-for="detail in details" :key="detail.description">
           <Card class="timeline-card">
             <template #title>
-              <div class="timeline-card-bg"
-                :style="{ background: `url(${detail.path}) no-repeat center center`, backgroundSize: '100% 100%' }">
-              </div>
+              <img class="timeline-card-bg" :src="detail.path"></img>
             </template>
             <template #content>
               <div class="description">{{ detail.description }}</div>
@@ -111,7 +109,7 @@ $scrollbar-width: 6px;
       /* height: 80%; */
       .timeline-card-bg{
         width: 100%;
-        height: 400px; 
+        height: fit-content; 
       }
       .description{
         font-family: NerkoOne;
